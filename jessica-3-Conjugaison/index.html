@@ -10,8 +10,15 @@
     <div id="entree">
         <label for="verbe">Votre verbe</label>
         <textarea id="verbe" ></textarea>
+        <select name="conjugaisons" id="conjugaisons-opt">
+            <option value="" disabled selected>--Quelle conjugaison--</option>
+            <option value="futur">Futur</option>
+            <option value="present">Present</option>
+            <option value="imparfait">Imparfait</option>
+        </select>
         <button onclick="conjuguer()">Conjuguer</button>
     </div>
+    
     <div id="conjugaisons">
 
     </div>
