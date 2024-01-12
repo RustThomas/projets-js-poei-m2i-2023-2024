@@ -1,0 +1,22 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+	width: 70vw;
+	border: 3px black solid;
+}
+#container > div {
+	height: 20vh;
+	width: 33%;
+    height: 150px;
+    text-align: center;
+    border: 1px white solid;
+}
+
+.box{
+	background-color: red;
+	color: white;
+}
+
+.dropper{
+	background-color: white;
+} 
