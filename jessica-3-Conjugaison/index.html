@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjugaison</title>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div id="entree">
+        <label for="verbe">Votre verbe</label>
+        <textarea id="verbe" ></textarea>
+        <select name="conjugaisons" id="conjugaisons-opt">
+            <option value="" disabled selected>--Quelle conjugaison--</option>
+            <option value="futur">Futur</option>
+            <option value="present">Present</option>
+            <option value="imparfait">Imparfait</option>
+        </select>
+        <button onclick="conjuguer()">Conjuguer</button>
+    </div>
+    
+    <div id="conjugaisons">
+
+    </div>
+    
+</body>
+</html>
