@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatric</title>
+</head>
+<body class="d-flex flex-column">
+    <header class="d-flex justify-content-center align-items-center py-5 bg-dark text-light">
+        <h1>Bienvenu sur la calculatrice</h1>
+    </header>
+    <main class="d-flex justify-content-center align-items-center flex-grow-1">
+        <div class="calculator card">
+            <input type="text" class="calculator-screen z-depth-1" id="displayer" value="" disabled />
+            <div class="calculator-keys">
+                <button type="button" class="operator btn btn-info" value="+" id="plus"><i class="fa-solid fa-plus"></i></button>
+                <button type="button" class="operator btn btn-info" value="-" id="minus"><i class="fa-solid fa-minus"></i></button>
+                <button type="button" class="operator btn btn-info" value="*" id="mult"><i class="fa-solid fa-xmark"></i></button>
+                <button type="button" class="operator btn btn-info" value="/" id="div"><i class="fa-solid fa-divide"></i></button>
+            
+                <button type="button" value="7" class="btn btn-light waves-effect number" id="seven">7</button>
+                <button type="button" value="8" class="btn btn-light waves-effect number" id="eight">8</button>
+                <button type="button" value="9" class="btn btn-light waves-effect number" id="nine">9</button>
+            
+                <button type="button" value="4" class="btn btn-light waves-effect number" id="four">4</button>
+                <button type="button" value="5" class="btn btn-light waves-effect number" id="five">5</button>
+                <button type="button" value="6" class="btn btn-light waves-effect number" id="six">6</button>
+            
+                <button type="button" value="1" class="btn btn-light waves-effect number" id="one">1</button>
+                <button type="button" value="2" class="btn btn-light waves-effect number" id="two">2</button>
+                <button type="button" value="3" class="btn btn-light waves-effect number" id="three">3</button>
+            
+                <button type="button" value="0" class="btn btn-light waves-effect number" id="zero">0</button>
+                <button type="button" class="decimal function btn btn-secondary number" id="dot" value=".">.</button>
+                <button type="button" class="all-clear function btn btn-danger btn-sm" id="clear" value="all-clear">AC</button>
+            
+                <button type="button" class="equal-sign btn btn-default" value="="><i class="fa-solid fa-equals"></i></button>
+            </div>
+        </div>
+    </main>
+    <footer class="d-flex justify-content-center align-items-center py-5 bg-dark text-light">
+        Nicolas Duquesne @2024
+    </footer>
+    <script src="https://kit.fontawesome.com/c24d3f9bea.js" crossorigin="anonymous"></script>
+    <script src="./calc.js"></script>
+</body>
+</html>
