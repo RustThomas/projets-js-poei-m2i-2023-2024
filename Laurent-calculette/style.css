@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1634159779963-4fafda643dac?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+
+}
+
+.row {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calculette {
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.562);
+    background-image: url(https://images.unsplash.com/photo-1595429035839-c99c298ffdde?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.calculette input {
+    width: 71%;
+    margin: 5px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 55px rgba(31, 31, 31, 0.562);
+    color: rgb(0, 0, 0);
+}
+
+.calculette button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.692);
+    box-shadow: 0px 0px 15px rgba(247, 169, 2, 0.562);
+    color: #0a0a0a;
+    transition: all .2s ease-in-out;
+}
+
+.calculette button:hover {
+    background-color: rgb(255, 208, 0);
+    color: #ffffff;
+}
