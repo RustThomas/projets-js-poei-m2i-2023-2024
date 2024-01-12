@@ -32,7 +32,6 @@ function onClickEv(event) {
 }
 
 function onEqualsClick() {
-    console.log(numExpression);
     if(validsOperationExpression(numExpression)) {
         const res = eval(numExpression);
         clearDisplayer();
